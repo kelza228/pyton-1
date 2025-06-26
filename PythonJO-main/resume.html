@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Мое резюме</h1>
+
+<div class="resume-section">
+    <h2>Личная информация</h2>
+    <p><strong>Имя:</strong> Иван Иванов</p>
+    <p><strong>Email:</strong> ivan@example.com</p>
+    <p><strong>Телефон:</strong> +7 (123) 456-78-90</p>
+</div>
+
+<div class="resume-section">
+    <h2>Образование</h2>
+    <p><strong>Университет:</strong> Московский Государственный Университет</p>
+    <p><strong>Специальность:</strong> Компьютерные науки</p>
+    <p><strong>Год окончания:</strong> 2020</p>
+</div>
+
+<div class="resume-section">
+    <h2>Опыт работы</h2>
+    <p><strong>Компания:</strong> IT Solutions</p>
+    <p><strong>Должность:</strong> Веб-разработчик</p>
+    <p><strong>Период:</strong> 2020 - настоящее время</p>
+    <p><strong>Обязанности:</strong></p>
+    <ul>
+        <li>Разработка веб-приложений на Django</li>
+        <li>Создание API</li>
+        <li>Оптимизация производительности</li>
+    </ul>
+</div>
+
+<div class="resume-section">
+    <h2>Навыки</h2>
+    <ul>
+        <li>Python, Django, Flask</li>
+        <li>HTML, CSS, JavaScript</li>
+        <li>SQL, PostgreSQL</li>
+        <li>Git, Docker</li>
+    </ul>
+</div>
+{% endblock content %}
